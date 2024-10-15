@@ -1,0 +1,7 @@
+Các hàm trong JS
+- alert
+- console.log
+- prompt
+- confirm
+- setTimeout
+- setInterval

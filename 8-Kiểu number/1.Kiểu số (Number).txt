@@ -1,0 +1,60 @@
+1. Tạo giá trị Number
+- Các cách tạo
+- Dùng cách nào? Tại sao?
+- Kiểm tra Data type
+
+2. Làm việc với Number
+- To string
+- To Fixed
+
+
+
+1. Tạo giá trị Number
+Cách tạo 1: 
+var age = 18;
+var PI = 3.14;
+
+Cách tạo 2:
+var otherNumber = new Number(9);
+" số 9 là giá trị NuMber muốn khởi tạo "
+
+===> Nên sử dụng cách 1: nhanh, gọn, đúng Data type
+cách kiểm tra
+
+=> console.log(typeof age);
+
+
+
+Cách kiểm tra xem value có phải NaN hay ko
+=> console.log(isNaN(age);
+
+Đúng : true || Sai : false
+
+
+
+2. Làm việc với Number
+toString ( giúp chuyển đổi số -> Chuỗi )
+
+=> console.log(toString(age));
+
+Cách kiểm tra
+console.log(typeof toString(age));
+
+
+
+toFixed ( làm tròn số )
+
+=> console.log(PI.toFixed());
+
+KHi bên trong toFixed() để trống thì nó sẽ hiểu là số 0 còn nếu mình điền số thì nó sẽ
+lấy số mà bạn điền đằng sau dấu thập phân giữ lại
+
+VÍ DỤ
+=> console.log(PI.toFixed(1));
+Print : 3.1
+Vì đằng sau dấu , có số 1 và 4 nhưng ta điền 1 thì nó chỉ lấy số 1 điền 2 thì lấy 14
+
+Và cách thức làm tròn như sau
+giá trị cuối sau dấu " , " 
++ nếu dưới .49 thì tất cả đằng sau bỏ hết
++ nếu " => " .5 thì làm tròn

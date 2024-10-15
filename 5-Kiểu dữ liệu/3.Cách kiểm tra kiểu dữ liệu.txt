@@ -1,0 +1,10 @@
+console.log(typeof <tên biến muốn ktra dữ liệu>);
+
+Ví dụ
+var a = 1;
+var b = 2;
+
+console.log(typeof a);
+
+
+=> Special Null type khi kiểm tra sẽ lại là kiểu dữ liệu object

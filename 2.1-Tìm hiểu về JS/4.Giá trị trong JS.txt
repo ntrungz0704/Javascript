@@ -1,0 +1,8 @@
+Có 6 giá trị boolean trong JS nếu như KHÁC 6 giá trị này thì sẽ trả về là true
+
++ 0
++ false
++ ' ' or " "
++ undefined
++ NaN
++ null

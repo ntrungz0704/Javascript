@@ -1,0 +1,27 @@
+Biến là nơi lưu trữ dữ lieu và khi nào cần sử dung hãy gọi nó ra
+
+Cách khai báo biến:
+
+var: Được sử dụng trong JavaScript cũ, có phạm vi rộng.
+let: Có phạm vi hẹp hơn, chỉ tồn tại trong khối code gần nhất.
+const: Giống như let nhưng giá trị không thể thay đổi sau khi được gán.
+
+Ví dụ:
+
+var storeName = 'Cửa hàng bác Sơn';
+let riceQuantity = 100;
+const storeAddress = '123 đường ABC';
+
+Lưu trữ và cập nhật giá trị
+Biến có thể được gán và thay đổi giá trị:
+
+let riceQuantity = 100;
+riceQuantity = 150; // Cập nhật số lượng gạo
+
+let storeName = 'Cửa hàng tạp hóa';
+storeName = 'Cửa hàng bác Sơn'; // Cập nhật tên cửa hang
+
+CÒN const sẽ bị lỗi vì đó là hàm cố định
+
+const storeAddress = '123 đường ABC';
+storeAddress = '456 đường XYZ'; // TypeError: Assignment to constant variable.

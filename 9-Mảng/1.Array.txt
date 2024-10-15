@@ -1,0 +1,32 @@
+1. Tạo mảng
+2. Truy xuất mảng
+
+
+
+1. Tạo mảng
+
+var languages = ["C++", "Python", "Javascript"];
+
+GIá trị của mảng được bắt đầu từ số " 0 "
+===> Và ở đây (length) là "0" , "1" , "2" ::: Total : 3 elements
+
+
+Array có thể chứa được tất cả dữ liệu trong JS
+ví dụ
+null, undefined, function() { }
+
+ví dụ thực tế nè 
+
+var languages = ["C++", "Python", "Javascript", null, undefined, function() { }];
+
+Total : 8 elements ( bởi vì function là 1 và bên trong function là 1 = 2 )
+
+
+2. Truy xuất mảng
+cosole.log(tên mảng);
+
+
+
+Tương tự chúng ta cũng có thể tạo 1 mảng giống như "biến" 
+
+=> tên mảng = new Array( elements );

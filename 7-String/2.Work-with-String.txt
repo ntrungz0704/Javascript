@@ -1,0 +1,88 @@
+CHUỖI trong JS bắt đầu từ con số 0 từ trái sang phải
+
+var myString = "Hoc JS tai F8";
+
+
+1. Length ( kt độ dài chuỗi )
+=> console.log(myString.length);
+
+
+
+
+2. Find index ( tìm vị trí của 1 kí tự hoặc nhiều kí tự VÀ DUY Nhất vị trí đầu tiên phát hiện )
+=> console.log(myString.indexOf("JS"));
+==> nếu như tìm được thì nó sẽ hiển thị 1 số DƯƠNG 
+<== còn ko được nó sẽ hiển thị là -1
+
+nếu như muốn tìm 1 chữ trong 1 chuỗi có nhiều ký tự giống nhau thì làm như sau
+VÍ DỤ
+var myString = "Hoc JS tai JS JS F8!";
+
+ĐẦU TIÊN ta đếm JS đầu tiên trước sau đó là cho nó vị trí số JS số 2
+=> console.log(myString.indexOf("JS", 6));
+
+Số 6 là vị trí indexOf bắt đầu tìm kiếm vị, vị trí số 6 là vị trí nằm đằng sau chữ JS first
+nên nó sẽ ko tìm thấy và nó sẽ tìm được chữ JS ở giữa ở trong chuỗi là 11
+
+CÒN NẾU Như muốn tìm chữ cuối cùng nằm trong chuỗi
+=> console.log(myString.lastIndexOf("JS"));
+
+
+
+3. Cut string ( cắt từ vị trí BEGIN -> vị trí END )
+=> console.log(myString.slice(4, 6));
+
+Còn muốn cắt từ vị trí nào đó đến hết thì ta bỏ số 6 là được
+
+CÒN ĐÂY là cắt ngược : NGược sẽ bắt đầu từ dấu -
+=> console.log(myString.slice(-3, -1));
+Sẽ ra được chữ ở cuối là F8
+
+
+
+4. Replace ( ghi đè )
+=> console.log(myString.replace("JS", "Javascript"));
+
+JS : là text replace ( thay đổi )
+Javascript : text sẽ được replace
+
+
+TRƯỜNG HỢP NHIỀU chữ Trùng nhau muốn thay đổi cùng 1 lúc
+=> console.log(myString.replace(/JS/g, "Javascript"));
+
+ADD thêm dấu /text/g ( biểu thức chính quy giúp mình tìm được tất cả text trong chuỗi )
+
+
+
+5. Convert to Upper Case ( Chuyển đổi thành chữ HOA )
+=> console.log(myString.toUpperCase());
+
+
+
+6. Convert to Lower Case ( Chuyển đổi thành chữ thường )
+=> console.log(myString.toLowerCase());
+
+
+
+7. Trim ( loại bỏ ký tự thừa TRƯỚC và SAU )
+=> console.log(myString.trim());
+
+
+
+8. Split ( cắt 1 chuỗi -> array ) ( tìm ra 1 điểm chung ở trong STRING )
+VÍ DỤ :
+var languages = "HTML, CSS, JavaScript";
+Điểm chung : đều có dấu ", " dấu , và dấu cách ở ngay sau
+=> console.log(languages.split(", "));
+
+
+
+9. Get a character by index ( ktra vị trí KÝ TỰ muốn Search )
+=> console.log(myString.charAt( vị trí muốn tìm kiếm ));
+
+OR
+
+=> console.log(myString[4]);
+
+
+

@@ -1,0 +1,33 @@
+// Number type
+var a = 1;
+var b = 2;
+
+
+//String type
+var fullName = "Nguyen Trung";
+
+nếu muốn thêm 1 dấu ' or " vào chuỗi String thì làm như sau
+
+=> \' or \" vào vị trí muốn thêm
+
+
+// Boolean type
+var isSuccess = true;
+or
+var isSuccess = false;
+=> Và tuyệt đối ko có dấu ' ' or " "
+
+
+// Undefined type
+nghĩa là 1 biến chỉ được khai báo nhưng lại ko có giá trị
+Ví dụ:
+var age;
+
+
+// Null
+var isNull = null;
+=> null mean là ko có gì
+
+
+// Symbol type
+var id = Symbol("description"); // unique

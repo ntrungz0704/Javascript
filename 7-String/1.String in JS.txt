@@ -1,0 +1,34 @@
+1. Tạo chuỗi
+
+Có 2 cách tạo chuỗi
+
+1- var fullName = "trung";
+2- var fullName = new String("trung");
+
+===> Nên dùng 1- bởi vì khi ktra data  type sẽ chính xác hơn đúng với mong muốn
+
+
+
+2. Cách xem độ dài chuỗi
+
+console.log(fullName.length);
+=> sẽ print ra là 5
+
+
+
+3. Có thể in ra = cách như sau
+
+Ví dụ:
+var first_Name = "Nguyễn";
+var last_Name = "Trung";
+
+Thay vì in như bth
+
+console.log("Name: " + first_Name + " " + last_Name);
+
+
+Thì ta có thể dùng cách này
+
+console.log(`Name: ${first_Name} ${last_Name}`);
+===> Cách dùng trên là khái niệm Template string ES6
+

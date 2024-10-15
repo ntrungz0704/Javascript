@@ -1,0 +1,5 @@
+JS là trình Thông Dịch
+JavaScript là một ngôn ngữ lập trình bậc cao.
++ Web: Frontend --- Backend
++ Mobile: React Native => Ios, Android
++ Desktop: ElectronJS => Win, MacOs

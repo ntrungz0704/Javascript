@@ -1,0 +1,8 @@
+Cách kiểm tra xem đối tượng đó có phải là ARRAY hay ko ? 
+
+console.log(Array.isArray(tên MẢNG));
+
+Trong Js "[ ]" và "{ }" đều trả về type of là "OBJECT"
+
+===> Nên nếu muốn ktra có phải là Array hay ko thì dùng cách trên nếu ko phải thì
+ta suy ra đó là Object "{ }"

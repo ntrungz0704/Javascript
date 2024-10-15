@@ -1,0 +1,7 @@
+Số nguyên và số thực
+#Số nguyên (Integer)
+Số nguyên là các số không có phần thập phân. Chúng bao gồm cả số dương, số âm và số không. Ví dụ về số nguyên bao gồm -3, 0, 7.
+
+#Số thực (Float)
+Số thực bao gồm tất cả các số nguyên và các số có phần thập phân. Ví dụ về số thực bao gồm -3, 0, 7, 1.5, -3.2.
+

@@ -1,0 +1,18 @@
+Toán tử
+- ==
+- !=
+
+=> 2 toán tử trên chỉ so sánh theo value tức là giá trị của chúng thôi
+Ví dụ
+var a = 1;
+var b = '1';
+
+console.log(a == b);
+
+NÓ lại trả về kết quả là true
+
+tương tự toán tử " != " cũng như thế
+
+Nếu như muốn so sánh chính xác từ value -> data type thì hãy sử dụng toán tử
+- ===
+- !==

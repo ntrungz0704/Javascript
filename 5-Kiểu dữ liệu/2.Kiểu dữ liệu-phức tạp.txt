@@ -1,0 +1,38 @@
+// Function
+
+var my_Function = function() {
+	alert("Hello world");
+};
+
+=> Function trên sẽ ko được chạy nếu như chưa được gọi tên
+
+==> Cách gọi tên
+
+<name function>();
+
+Ví dụ:
+my_Function();
+
+
+
+// Object types
+
+var my_Object = {
+	name: "Nguyen Trung" , 
+	age: 18 ,
+	address: "HCM"
+};
+
+===> Object có thể chứa rất nhiều LOẠI dữ liệu KHÁC NHAU bên trong chúng
+
+
+// Array
+
+var my_Array = [
+	"HTML",
+	"CSS",
+	"Javascript"
+];
+
+
+
